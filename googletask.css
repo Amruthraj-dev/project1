@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    /* background-image: url(../ASSETS/googletask/googlebg1.jpg); */
+    background-repeat: none;
+
+}
+.top{
+    height: 60px;
+    background-color: rgb(127, 59, 175);
+}
+i{
+    color: white;
+    position: relative;
+    visibility: visible;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.sbar{
+    border-radius:40px ;
+    border: 1px solid rgb(194, 192, 192); 
+    background-color: white;
+    outline: none;
+    height: 40px;
+    width: 550px;
+    position: relative;
+    top: 210px;
+    left: 480px;
+    background: transparent;
+
+
+}
+.ext{
+    background-color: white;
+}
+.ppic{
+    height: 20px;
+    width: 20px;
+}
+
+.icon:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.google{
+    position: fixed;
+    top: 10px;
+    left: 198px;
+    height: 20px;
+    border-radius: 50%;
+}
+.gg{
+    height: 30px;
+    border-radius:20px ;
+    border: none; 
+    background-color: rgb(202, 199, 199);
+    
+}
+.gt2{
+    border-radius: 20px;
+    margin: 10px;
+    height: 25px;
+}
+.gcen{
+    position: relative;
+    top: 180px;
+    left: 600px;
+}
+.body{
+    display: inline-block;
+}
+.b1{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+.spic{
+    border-radius:50% ;
+    height: 30px;
+    width: 30px;
+}
+.side{
+    margin: 10px;
+}
+.side:hover{
+   transform: scale(1.2);
+
+}
+
+.sugg{
+    position: relative;
+    top: 240px;
+    left: 630px;
+    margin-left: 30px;
+}
+.bottom{
+    position:fixed;
+    
+    display: flex; 
+    bottom: 50px;
+    border: 1px solid rgb(218, 216, 216);
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+}
+.bottom1{
+    height: 50px;
+    display: flex;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+.tools{
+    padding: 15px;  
+}
+.bo1{
+    display: block;
+}
+.tl1{
+    position: fixed; 
+    right: 180px;
+}
+.tl2{
+    position: fixed; 
+    right: 100px;
+}
+.tl3{
+    position: fixed; 
+    right: 20px;
+}
+.tools:hover{
+    border-bottom: 1px solid;
+    color: blue;
+}
+.fa-solid:hover{
+    color: rgb(8, 8, 8);
+   
+}
+.sbar:hover{
+    box-shadow: 0px 0px 03px  grey;
+}
+
+button{
+    border: none;
+    background-color: rgb(247, 247, 242);
+    padding: 10px;
+    border-radius: 04px;
+}
+button:hover{
+    box-shadow: 0px 0px 1px 1px rgb(159, 156, 156) ;
+}
+.mic{
+    position: fixed;
+    top: 382px;
+    left: 940px;
+
+}
+.lens{
+    position: fixed;
+    top: 382px;
+    left: 980px;
+
+}
+input{
+    size:50px;
+}
+.mic:hover{
+    transform: scale(1.1);
+}
+.lens:hover{
+    transform: scale(1.1);
+}
